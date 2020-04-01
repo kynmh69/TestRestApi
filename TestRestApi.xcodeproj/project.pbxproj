@@ -17,6 +17,7 @@
 		F52D4D872434B6CC00988937 /* TestRestApiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D4D862434B6CC00988937 /* TestRestApiUITests.swift */; };
 		F52D4D962434BB3600988937 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F52D4D952434BB3600988937 /* Alamofire.framework */; };
 		F52D4D972434BB3600988937 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F52D4D952434BB3600988937 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F52D4DDD2434DE2500988937 /* As.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52D4DDC2434DE2500988937 /* As.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		F52D4D862434B6CC00988937 /* TestRestApiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRestApiUITests.swift; sourceTree = "<group>"; };
 		F52D4D882434B6CC00988937 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F52D4D952434BB3600988937 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		F52D4DDC2434DE2500988937 /* As.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = As.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				F52D4D6F2434B6CC00988937 /* LaunchScreen.storyboard */,
 				F52D4D722434B6CC00988937 /* Info.plist */,
 				F52D4D6C2434B6CC00988937 /* Preview Content */,
+				F52D4DDC2434DE2500988937 /* As.swift */,
 			);
 			path = TestRestApi;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				F52D4D652434B6CA00988937 /* AppDelegate.swift in Sources */,
 				F52D4D672434B6CA00988937 /* SceneDelegate.swift in Sources */,
 				F52D4D692434B6CA00988937 /* ContentView.swift in Sources */,
+				F52D4DDD2434DE2500988937 /* As.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
